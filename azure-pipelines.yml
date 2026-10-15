@@ -14,7 +14,7 @@ stages:
           inputs:
             provider: 'azurerm'
             command: 'init'
-            workingDirectory: '$(System.DefaultWorkingDirectory)/azure-aap'
+            workingDirectory: '$(System.DefaultWorkingDirectory)/anuj-infra/azure-aap'
             backendServiceArm: 'anuj-infra'
             backendAzureRmResourceGroupName: 'anuj-rg-bc'
             backendAzureRmStorageAccountName: 'anujstatefile123'
